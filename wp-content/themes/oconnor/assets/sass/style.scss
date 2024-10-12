@@ -1,0 +1,530 @@
+
+@font-face {
+	font-family: 'Century Gothic';
+	src: url('../fonts/911FontscomCenturyGothicBold-911fontscomfontspMgo0.woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Century Gothic';
+	src: url('../fonts/GOTHIC.woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Avanti Bold';
+	src: url('../fonts/6442.woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Avanti';
+	src: url('../fonts/6444.woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+$colorBlackLight: #272b2e;
+$colorMain: #c2b697;
+$colorMainLight: #f8f8f8;
+$colorBorder: #d9e0e4;
+
+
+$--breakpoint-xs: 0;
+$--breakpoint-sm: 576px;
+$--breakpoint-md: 768px;
+$--breakpoint-lg: 992px;
+$--breakpoint-xl: 1200px;
+
+//*:not(i):not([class*="icon"]):not([class*="fa-"]) {
+//	font-family: Avanti !important;
+//}
+
+*:not(i):not([class*="icon"]):not([class*="fa-"]) {
+	font-family: 'Century Gothic' !important;
+}
+
+//
+//h1,
+//h2,
+//h3,
+//h4,
+//h5,
+//h6,
+//.stat_count
+//{
+//	font-family: 'Century Gothic' !important;
+//	word-wrap: normal;
+//
+//	> span {
+//		font-family: 'Century Gothic' !important;
+//		word-wrap: normal;
+//	}
+//}
+
+//body {
+//	//background-color: red;
+//}
+//
+//.header_side_container {
+//	*:not(i) {
+//		font-family: 'Century Gothic';
+//	}
+//}
+//
+//*[id^="rev_slider"] {
+//	*:not([class*="rev-btn"]) {
+//		font-family: Avanti !important;
+//	}
+//
+//}
+//
+//.avanti-font * {
+//	font-family: Avanti !important;
+//}
+//
+//
+//.single .blogpost_title ~ * {
+//	&,* {
+//		font-family: Avanti !important;
+//	}
+//.main-menu ul {
+//
+//}
+
+
+
+
+//our mission
+.vc_custom_1588672059362:not(img) {
+	position:relative;
+	background-position: top right !important;
+
+	@media all and (max-width: $--breakpoint-lg) {
+		background: none !important;
+	}
+}
+
+.vc_custom_1588672059362:not(img):before {
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height:100%;
+	content: '';
+	z-index:-1;
+	background: rgb(252,252,252);
+	background: -moz-linear-gradient(180deg, rgba(252,252,252,1) 0%, rgba(252,252,252,1) 80%, rgba(238,238,238,1) 100%);
+	background: -webkit-linear-gradient(180deg, rgba(252,252,252,1) 0%, rgba(252,252,252,1) 80%, rgba(238,238,238,1) 100%);
+	background: linear-gradient(180deg, rgba(252,252,252,1) 0%, rgba(252,252,252,1) 80%, rgba(238,238,238,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fcfcfc",endColorstr="#eeeeee",GradientType=1)
+}
+
+.vc_custom_1526040401592 {
+	@media all and (max-width: $--breakpoint-lg) {
+		margin-bottom: 0 !important;
+	}
+
+	.gt3_custom_shadow {
+		margin-bottom: 1px !important;
+	}
+}
+
+.vc_custom_1588682682597 {
+	background-size: 100% auto !important;
+
+	@media all and (max-width: $--breakpoint-lg) {
+		background-position: left !important;
+		background-size: auto 200% !important;
+	}
+}
+
+
+html {
+	overflow-x:hidden;
+}
+
+
+.button1 {
+	border-width: 1px;
+	border-style: solid;
+	letter-spacing: 0.1em;
+	font-family: Montserrat;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.blog_content {
+	p {
+		text-align: justify;
+	}
+}
+
+.call-me-wrapper {
+	form {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+
+	@media all and (max-width: $--breakpoint-sm) {
+		input[type="text"] {
+			width: 185px;
+		}
+
+		input[type="submit"] {
+			padding: 0 5px;
+
+		}
+	}
+}
+
+//.vc-row {
+//	width: 100%;
+//}
+
+.modal {
+	.modal-header {
+		background-color: $colorMain;
+		color: white;
+
+		span {
+			color: white;
+		}
+	}
+
+	p {
+		margin-bottom: 0;
+	}
+
+	input[type=text],
+	textarea {
+		width: 100%;
+	}
+
+	[data-send-form] {
+		line-height: 46px;
+	}
+
+	input[type="submit"] {
+		margin-bottom: 0;
+	}
+}
+
+.contact-us-wrapper {
+	input[type=text],
+	textarea {
+		width: 100%;
+	}
+
+	.row {
+		margin-right: -5px;
+		margin-left: -5px;
+	}
+
+	[class*="gt3_span"] {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	[type=submit] {
+		line-height: 46px;
+	}
+}
+
+.border-invalid {
+	border: 1px solid red !important;
+}
+
+.bg-invalid {
+	background-color: red !important;
+}
+
+.page-id-1493 .gt3_team_list a {
+	pointer-events: none;
+}
+
+.featured_post_info  {
+	.post_author,
+	.post_category {
+		a {
+			pointer-events: none;
+		}
+	}
+}
+
+.gt3_header_builder_text_component {
+	font-weight: normal;
+}
+
+.stat_count_wrapper {
+	max-width:100%;
+}
+
+input[type="submit"] {
+	font-weight: 700;
+	line-height: initial;
+}
+
+.call-me-button-wrapper {
+	p {
+		display: none;
+	}
+}
+
+
+.close {
+	cursor: pointer;
+}
+
+@media all and (min-width: $--breakpoint-md) {
+	.advantages {
+		display: flex;
+		align-items: stretch;
+
+		.vc_column-inner,
+		.wpb_wrapper,
+		.gt3_link_layer,
+		.gt3_link_layer__wrapper {
+			height: 100%;
+		}
+	}
+
+	.flex-stretch {
+		display: flex;
+		align-items: stretch;
+
+		.vc_column-inner {
+			height: 100%;
+		}
+	}
+}
+
+
+
+.s-packages-wrapper {
+	overflow-x: auto;
+
+	table {
+		border: 1px solid $colorBorder;
+		background-color: $colorMainLight;
+		//table-layout: fixed;
+
+		tbody tr {
+			&:nth-child(odd) {
+				background-color: lighten($colorMainLight, 10%);
+			}
+		}
+
+		thead {
+			background-color: $colorMain;
+			color: white;
+			//transition: all .01s;
+
+
+			tr {
+				position: sticky;
+				top:0;
+			}
+
+			td {
+				padding-top: 15px;
+				padding-bottom: 15px;
+
+			}
+		}
+
+		tbody td {
+			border-left: 1px solid $colorBorder;
+			border-bottom: 1px solid $colorBorder;
+			font-size: .8em;
+			line-height: 1.2em;
+			padding: 10px;
+		}
+
+		td {
+			&:first-child {
+				text-align: left !important;
+				font-weight: bold;
+			}
+
+			text-align: center;
+
+			* {
+				text-align:center;
+			}
+
+			width: 18%;
+
+			&:first-child {
+				width: auto;
+			}
+		}
+	}
+}
+
+.text-m-d {
+	&::before {
+		content: attr(data-desktop);
+	}
+
+	@media all and (max-width: $--breakpoint-md) {
+		&::before {
+			content: attr(data-mobile);
+		}
+	}
+}
+
+[data-tooltip-html] {
+	cursor: pointer;
+}
+
+nav.main-menu {
+	@media all and (min-width: $--breakpoint-xl) {
+		ul li:nth-child(3) {
+			.sub-menu {
+				width: 350px;
+			}
+		}
+	}
+}
+
+.gt3_team_list__item {
+	.gt3_team_list__position {
+		//margin-bottom: -2px;
+		font-size: 11px;
+	}
+}
+
+.gt3_social *:last-child {
+	margin-right: 0 !important;
+}
+
+.widget.widget_posts .recent_posts {
+	.post_title {
+		padding-top: 0;
+		font-size: .9em;
+	}
+
+	 img {
+		 position: relative;
+		 top: 3px;
+	 }
+}
+
+.gt3_module_featured_posts {
+	.blogpost_title {
+		line-height: 26px;
+	}
+}
+
+h1.blogpost_title {
+	font-size: 30px;
+	line-height: 34px;
+}
+
+.spacing_beetween_items_30 .blog_post_preview {
+
+}
+
+.gt3_icon_box_icon-position_left,
+.gt3_icon_box_icon-position_right {
+	.gt3_icon_box-divider {
+		@media all and (max-width: $--breakpoint-md) {
+			margin-left:initial;
+		}
+	}
+}
+
+.gt3-page-title.gt3-page-title_with_bg {
+	margin-bottom: 10px;
+}
+
+.single-team {
+	.gt3-page-title.gt3-page-title_with_bg {
+		margin-bottom: 50px;
+	}
+}
+
+.gt3_dropcaps {
+	@media all and (max-width: $--breakpoint-md) {
+		margin-top: 2px !important;
+		font-size: 2.9em !important;
+
+		.page-id-1914 & {
+			margin-top: 4px !important;
+		}
+	}
+}
+
+
+.gt3_team_list__position {
+	@media all and (max-width: $--breakpoint-sm) {
+		padding-right: 15px;
+	}
+}
+
+.call-me-row {
+	padding: 60px 0;
+	background-color: $colorBlackLight;
+	color: $colorMain;
+
+	&.pre-footer {
+		margin-bottom: -40px;
+	}
+
+	.call-me-row-inner {
+		display: flex;
+	}
+
+	h2 {
+		color: inherit;
+	}
+
+	[type="submit"] {
+		margin-bottom: 0;
+	}
+
+
+	@media all and (min-width: $--breakpoint-xl) {
+		.call-me-wrapper {
+			margin-left: 40px;
+		}
+	}
+
+	@media all and (max-width: $--breakpoint-xl) {
+		text-align: center;
+
+		.call-me-row-inner {
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+
+		.call-me-wrapper {
+			margin-top: 20px !important;
+		}
+
+		h2 {
+			flex-basis: 100%;
+		}
+	}
+}
+
+
+footer {
+	.gt3_social {
+		@media all and (max-width: $--breakpoint-md) {
+			margin-bottom: 10px;
+		}
+	}
+
+	@media all and (max-width: $--breakpoint-md) {
+		h3,p {
+			text-align: center !important;
+		}
+	}
+}

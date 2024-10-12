@@ -1,0 +1,12 @@
+wp-config.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/cache
+wp-content/blogs.dir/
+wp-content/upgrade/
+wp-content/uploads
+wp-content/themes/twenty*
+*.DS_Store
+*.log
+.htaccess
+.idea

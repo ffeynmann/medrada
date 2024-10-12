@@ -1,0 +1,59 @@
+.wpb_el_type_css_editor.no-vc-background .vc_settings .color-group~.color-group,
+.wpb_el_type_css_editor.no-vc-background .vc_settings .vc_background-image,
+.wpb_el_type_css_editor.no-vc-background .vc_settings .vc_background-style,
+.wpb_el_type_css_editor.no-vc-background .vc_settings label:nth-of-type(2),
+.wpb_el_type_css_editor.no-vc-border .vc_border>.vc_bottom,
+.wpb_el_type_css_editor.no-vc-border .vc_border>.vc_left,
+.wpb_el_type_css_editor.no-vc-border .vc_border>.vc_right,
+.wpb_el_type_css_editor.no-vc-border .vc_border>.vc_top,
+.wpb_el_type_css_editor.no-vc-border .vc_border>label:nth-of-type(1),
+.wpb_el_type_css_editor.no-vc-border .vc_settings .color-group:nth-of-type(1),
+.wpb_el_type_css_editor.no-vc-border .vc_settings .vc_border-radius,
+.wpb_el_type_css_editor.no-vc-border .vc_settings .vc_border-style,
+.wpb_el_type_css_editor.no-vc-border .vc_settings label:nth-of-type(1),
+.wpb_el_type_css_editor.no-vc-border .vc_settings label:nth-of-type(3),
+.wpb_el_type_css_editor.no-vc-border .vc_settings label:nth-of-type(4),
+.wpb_el_type_css_editor.no-vc-margin .vc_margin>.vc_bottom,
+.wpb_el_type_css_editor.no-vc-margin .vc_margin>.vc_left,
+.wpb_el_type_css_editor.no-vc-margin .vc_margin>.vc_right,
+.wpb_el_type_css_editor.no-vc-margin .vc_margin>.vc_top,
+.wpb_el_type_css_editor.no-vc-margin .vc_margin>label {
+    display: none;
+}
+
+
+[data-vc-shortcode=vc_line_chart] .gt3_visible.vc_shortcode-param[data-vc-shortcode-param-name=values_custom_color],
+.creative_link_css_editor.no-vc-border .vc_settings label:last-child,
+.video_banner_css_editor.no-vc-border .vc_settings label:last-child {
+    display: block;
+}
+
+.wpb_el_type_css_editor.no-vc-border .vc_border .vc_padding {
+    margin: 0;
+}
+
+.wpb_el_type_css_editor.no-vc-border .vc_border {
+    border: 0!important;
+}
+
+.vc_edit_form_elements .textarea_raw_html,
+.wpb_element_wrapper .textarea_raw_html{
+	overflow: auto;
+}
+.vc_edit_form_elements .textarea_raw_html.thumbs_btn_text {
+	resize: none;
+	height: 36px;
+	font-size: 1em;
+	color: #32373c;
+	overflow: hidden;
+}
+
+.wpb_el_type_backend_divider{
+	background: #e6e6e6;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	margin-top: 20px;
+}
+.wpb_el_type_backend_divider .wpb_element_label{
+	margin-bottom: 0;
+}
